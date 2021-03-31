@@ -1,4 +1,5 @@
-export interface User{
-  uid: string,
-  isAnonymous: boolean
+export interface User {
+  uid: string;
+  isAnonymous: boolean;
+  name: string;
 }
