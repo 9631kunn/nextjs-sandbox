@@ -1,0 +1,16 @@
+.slider{
+  padding-bottom: 10px;
+
+  // スライド
+  &__block{
+    align-items: center;
+    display: grid;
+    height: 30vw !important;
+    justify-content: center;
+    max-height: 100px !important;
+  }
+  // スクロールバー
+  .swiper-scrollbar{
+    bottom: 0;
+  }
+}

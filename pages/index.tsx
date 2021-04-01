@@ -15,8 +15,8 @@ export default function Home() {
       </Head>
       <Nav />
       <main>
+        <Slider />
         <div className="container">
-          <Slider />
           <p style={{ fontSize: "24px" }}>{user?.uid || "未ログイン"}</p>
         </div>
       </main>
