@@ -3,6 +3,9 @@ import { useEffect, useState } from "react";
 import { useRouter } from "next/router";
 import { User } from "../../models/User";
 
+import Nav from "../../components/Nav";
+import Layout from "../../components/Layout";
+
 type Query = {
   uid: string;
 };
@@ -30,5 +33,11 @@ export default function UserShow() {
     }
     loadUser();
   }, [query.uid]);
-  return <div>{user ? user.name : "ロード中"}</div>;
+
+  return (
+    <>
+      <Nav />
+      <Layout>{user ? user.name : "ロード中"}</Layout>
+    </>
+  );
 }
