@@ -1,5 +1,10 @@
 @import "./reset.scss";
 
+*{
+  font-family: YakuHanMP_Noto, "Noto Serif JP", serif;
+  word-break: break-word;
+}
+
 body{
   color: rgba(68, 68, 68);
 }
