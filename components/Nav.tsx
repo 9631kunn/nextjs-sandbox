@@ -1,10 +1,8 @@
-import styles from "../styles/nav.module.scss";
-
 const Nav = () => (
-  <nav className={styles.nav}>
-    <h1>Nav</h1>
+  <nav className="nav">
+    <h1>ああああ</h1>
     <ul>
-      <li>MENU</li>
+      <li></li>
     </ul>
   </nav>
 );
