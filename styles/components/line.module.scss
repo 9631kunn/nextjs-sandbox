@@ -1,0 +1,9 @@
+.line{
+  display: grid;
+  .date{
+    font-family: "Roboto Mono", monospace;
+  }
+  .content{
+    margin: .25em 0 1.5em;
+  }
+}

@@ -1,0 +1,23 @@
+.header{
+  align-items: center;
+  display: flex;
+  position: absolute;
+  right: 0;
+  top: 15px;
+  h1,
+  p{
+    height: 100vh;
+    svg{
+      height: 100%;
+      width: auto;
+      .red{
+        fill: #e51c1c;
+        opacity: .9;
+      }
+      .black{
+        fill: #444;
+        opacity: .9;
+      }
+    }
+  }
+}
